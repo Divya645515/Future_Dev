@@ -1,0 +1,28 @@
+.fam{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    color: red;
+    padding: 5px;
+    margin-bottom: 10px;
+   
+}
+.full{
+   
+    width: fit-content;
+    padding: 10px;
+}
+.reg ,.dat{
+    border: 5px solid purple;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.but{
+    border: 5px double blue;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
