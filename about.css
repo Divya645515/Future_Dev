@@ -1,0 +1,8 @@
+#about {
+    color: blue;
+    font-style: italic;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    text-align: center;
+}
