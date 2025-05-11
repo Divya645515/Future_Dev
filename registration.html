@@ -9,29 +9,37 @@
 </head>
 
 <body>
+  <b>
     <form action="thanku.html">
         <h1 id="head" class="fam">Welcome to Future Developer's Registration</h1>
         <div class="full">
             <div>
-                <input required type="text" class="reg" placeholder="Enter kid name">
+                <label for="kidName">Kid Name:</label>
+                <input required type="text" id="kidName" class="reg" placeholder="Enter kid name">
             </div>
             <div>
-                <input required type="text" class="reg" placeholder="Father name">
+                <label for="fatherName">Father Name:</label>
+                <input required type="text" id="fatherName" class="reg" placeholder="Father name">
             </div>
             <div>
-                <input required type="text" class="reg" placeholder="Mother name">
+                <label for="motherName">Mother Name:</label>
+                <input required type="text" id="motherName" class="reg" placeholder="Mother name">
             </div>
             <div>
-                <input required type="date" class="dat">
+                <label for="dob">Date of Birth:</label>
+                <input required type="date" id="dob" class="dat">
             </div>
             <div>
-                <input required type="text" class="reg" placeholder="Enter grandfather name">
+                <label for="grandfatherName">Grandfather Name:</label>
+                <input required type="text" id="grandfatherName" class="reg" placeholder="Enter grandfather name">
             </div>
             <div>
-                <input required type="text" class="reg" placeholder="Enter grandmother name">
+                <label for="grandmotherName">Grandmother Name:</label>
+                <input required type="text" id="grandmotherName" class="reg" placeholder="Enter grandmother name">
             </div>
             <div>
-                <select name="class_applied" required class="reg">
+                <label for="classApplied">Class to Apply:</label>
+                <select name="class_applied" id="classApplied" required class="reg">
                     <option value="" disabled selected>Select class to apply</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -46,7 +54,8 @@
                 </select>
             </div>
             <div>
-                <textarea required class="reg" cols="30" rows="5" placeholder="Address"></textarea>
+                <label for="address">Address:</label><br>
+                <textarea required id="address" class="reg" cols="30" rows="5" placeholder="Address"></textarea>
             </div>
             <br>
             <div>
@@ -55,6 +64,7 @@
             </div>
         </div>
     </form>
+   </b>
 </body>
 
 </html>
